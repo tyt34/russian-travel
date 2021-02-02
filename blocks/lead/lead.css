@@ -25,22 +25,3 @@
     max-width: 320px;
   }
 }
-
-/*
-@media screen and (min-width: 1024px) {
-  .lead {
-    width: calc(100% - 96px);
-  }
-}
-@media screen and (min-width: 1280px) {
-  .lead {
-    width: calc(100% - 296px);
-  }
-}
-@media screen and (min-width: 1440px) {
-  .lead {
-    width: calc(100% - 456px);
-
-  }
-}
-*/
