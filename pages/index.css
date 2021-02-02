@@ -5,8 +5,8 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_status/header__lang-link_status_activate.css);
 @import url(../blocks/header/__column-links/header__column-links.css);
-@import url(../blocks/header/__lang-link-status/header__lang-link-status_activate.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
