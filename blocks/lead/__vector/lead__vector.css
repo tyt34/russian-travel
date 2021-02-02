@@ -1,0 +1,43 @@
+.lead__vector {
+  width: 95%;
+  position: absolute;
+  left: 1%;
+  bottom: 30%;
+}
+@media screen and (min-width: 375px) {
+  .lead__vector {
+    bottom: 25%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .lead__vector {
+    bottom: 28%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .lead__vector {
+    bottom: 22%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .lead__vector {
+    bottom: 23%;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .lead__vector {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .lead__vector {
+    bottom: 25%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__vector {
+    max-width: 320px;
+
+  }
+}

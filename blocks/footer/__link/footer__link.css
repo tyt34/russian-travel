@@ -1,0 +1,22 @@
+.footer__link {
+  color: white;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__links {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__link {
+    margin-left: 16px;
+    margin-top: 32px;
+  }
+}
+@media (min-width: 0) and (max-width: 400px) {
+  .footer__link {
+    margin-top: 32px;
+  }
+}
