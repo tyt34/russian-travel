@@ -1,7 +1,6 @@
 .place-row-right {
   margin-left: 40px;
 }
-
 @media screen and (max-width: 1024px) {
   .place-row-right {
     margin-left: 32px;
@@ -18,10 +17,3 @@
     margin-left: 0px;
   }
 }
-/*
-@media screen and (max-width: 320px) {
-  .place-row-tree {
-    margin-left: 0px;
-  }
-}
-*/

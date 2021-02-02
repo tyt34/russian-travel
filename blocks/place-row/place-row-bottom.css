@@ -2,28 +2,9 @@
   display: flex;
   margin-top: 48px;
 }
-
-@media screen and (max-width: 1024px) {
-  .place-row-bottom {
-
-  }
-}
-@media screen and (max-width: 768px) {
-  .place-row-bottom {
-
-  }
-}
 @media screen and (max-width: 530px) {
   .place-row-bottom {
     flex-direction: column;
     margin-top: 32px;
   }
 }
-/*
-@media screen and (max-width: 320px) {
-  .place-row-two {
-    flex-direction: column;
-    margin-top: 32px;
-  }
-}
-*/

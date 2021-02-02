@@ -3,7 +3,6 @@
   text-decoration: none;
   margin-right: 18px;
 }
-
 @media screen and (max-width: 400px) {
   .footer__links {
     margin-right: 0px;

@@ -4,8 +4,6 @@
   margin-top: 32px;
   max-width: 683px;
 }
-
-
 @media screen and (max-width: 1024px) {
   .intro__content-row {
     max-width: 692px;

@@ -6,7 +6,7 @@
   font-weight: 900;
   max-width: 288px;
   line-height: 44px;
-  margin: 0 auto; /* без этого участка текст не по центру */
+  margin: 0 auto;
   margin-top: 48px;
 }
 @media screen and (min-width: 375px) {
@@ -21,15 +21,3 @@
     line-height: 93px;
   }
 }
-/*
-@media screen and (min-width: 1024px) {
-  .lead__title {
-    max-width: 928px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .lead__title {
-    max-width: 782px;
-  }
-}
-*/
