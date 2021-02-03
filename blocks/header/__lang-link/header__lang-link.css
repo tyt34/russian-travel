@@ -1,6 +1,4 @@
 .header__lang-link {
-  font-size: 24px;
-  line-height: 28px;
   margin-left: 18px;
   text-decoration: none;
   color: white;
@@ -10,7 +8,14 @@
   -o-transition: opacity 3.3s;
   -moz-transition: opacity 3.3s;
 }
-@media screen and (max-width: 320px) {
+/* Вот тут правильно */
+@media screen and (min-width: 768px) {
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

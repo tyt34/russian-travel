@@ -1,0 +1,21 @@
+.header__logo {
+  /*background-color: red;*/
+}
+@media screen and (min-width: 768px) {
+  .header__logo {
+    /*background-color: rgb(56, 60, 200);*/
+    width: 176px;
+    height: 52px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__logo {
+    /*background-color: rgb(55, 251, 224);*/
+    width: 142px;
+    height: 42px;
+  }
+}
+/*
+Стили этого запроса (max-width) будут применяться только для экранных устройств с шириной области
+просмотра не более 320px.
+*/

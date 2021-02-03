@@ -5,16 +5,17 @@
 }
 @media screen and (max-width: 1024px) {
   .lead__image {
-    margin-top: 65px;
+    margin-top: 64px;
   }
 }
 @media screen and (max-width: 768px) {
   .lead__image {
-    margin-top: 78px;
+    margin-top: 56px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .lead__image {
+    margin-top: 40px;
     margin-left: 0;
     margin-right: 0;
   }

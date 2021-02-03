@@ -4,11 +4,20 @@
   font-size: 18px;
   line-height: 22px;
   max-width: 360px;
+  font-style: normal;
+  font-weight: normal;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 768px) {
   .cover__subtitle {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    margin-top: 16px;
+    margin-left: 0;
+    margin-right: 0;
     font-size: 14px;
     line-height: 16px;
-    max-width: 288px;
   }
 }

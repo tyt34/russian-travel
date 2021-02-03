@@ -1,33 +1,23 @@
-.footer__links {
-  display: flex;
-  padding: 0;
+.footer__list {
+
 }
 
-
 @media screen and (min-width: 768px) {
-  .footer__links {
-    /*
+  .footer__list {
     margin-top: 88px;
     margin-left: 6px;
     margin-bottom: 24px;
-    */
   }
 }
 @media screen and (min-width: 1024px) {
-  .footer__links {
-    /*
+  .footer__list {
     margin-top: 92px;
     margin-left: 28px;
-    */
   }
 }
 @media screen and (max-width: 767px) {
-  .footer__links {
-    flex-direction: column;
-    /*
+  .footer__list {
     margin-left: 16px;
     margin-top: 32px;
-    */
   }
 }
-/* правильное расположение медиазапросов*/

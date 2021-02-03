@@ -1,0 +1,26 @@
+.footer__navigation {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .footer__navigation {
+
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer__navigation {
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__navigation {
+    flex-direction: column;
+  }
+}
