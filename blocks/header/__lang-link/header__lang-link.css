@@ -4,10 +4,19 @@
   margin-left: 18px;
   text-decoration: none;
   color: white;
+  opacity: 1;
+  transition: opacity 3.3s;
+  -webkit-transition: opacity 3.3s;
+  -o-transition: opacity 3.3s;
+  -moz-transition: opacity 3.3s;
 }
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }
+}
+.footer__link:hover {
+  /*color: red;*/
+  opacity: 0.8;
 }
