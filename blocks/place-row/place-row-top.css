@@ -1,8 +1,0 @@
-.place-row-top {
-  display: flex;
-}
-@media screen and (max-width: 530px) {
-  .place-row-top {
-    flex-direction: column;
-  }
-}
