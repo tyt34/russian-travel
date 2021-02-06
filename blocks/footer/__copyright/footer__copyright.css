@@ -19,6 +19,12 @@
     margin-top: 94px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .footer__copyright {
+    margin-right: 48px;;
+    margin-top: 94px;
+  }
+}
 
 
 
