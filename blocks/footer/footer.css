@@ -13,8 +13,14 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  .footer__copyright {
-    margin-right: 48px;
+  .footer {
     max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer {
+    max-width: 1184px;
   }
 }

@@ -1,4 +1,12 @@
 .header__column-links {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 3px;
 }
+/*
+@media screen and (max-width: 767px) {
+  .header__column-links {
+    margin-right: 16px;
+  }
+}
+*/

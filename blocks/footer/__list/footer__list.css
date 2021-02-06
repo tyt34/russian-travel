@@ -5,19 +5,26 @@
 @media screen and (min-width: 768px) {
   .footer__list {
     margin-top: 88px;
-    margin-left: 6px;
+    /*margin-left: 6px;*/
     margin-bottom: 24px;
+    margin-left: 18px;
+  }
+  .footer__list:first-child {
+    margin-left: 0;
   }
 }
 @media screen and (min-width: 1024px) {
   .footer__list {
     margin-top: 92px;
-    margin-left: 28px;
+    /*margin-left: 28px;*/
   }
 }
 @media screen and (max-width: 767px) {
   .footer__list {
     margin-left: 16px;
     margin-top: 32px;
+  }
+  .footer__list:nth-child(1) {
+    margin-top: 0;
   }
 }

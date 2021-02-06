@@ -1,13 +1,11 @@
 .page {
   background: #2A2C2F;
   color: white;
-  font-family: Inter, Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   min-width: 320px;
-}
-@media screen and (max-width: 1280px) {
-  .page {
-    max-width: 1280px;
-  }
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media screen and (max-width: 1024px) {
   .page {

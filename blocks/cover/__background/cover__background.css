@@ -8,25 +8,31 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
-
+@media screen and (min-width: 1280px) {
+  .cover__background {
+    /*min-width: 1184px;*/
+  }
+}
 @media screen and (min-width: 1025px) {
   .cover__background {
-    height: 740px;
+    min-height: 740px;
+    /*min-width: 1024px;*/
   }
 }
 @media screen and (max-width: 1024px) {
   .cover__background {
-    height: 640px;
+    min-height: 640px;
   }
 }
 @media screen and (max-width: 768px) {
   .cover__background {
-    height: 480px;
+    min-height: 480px;
   }
 }
 @media screen and (max-width: 320px) {
   .cover__background {
-    height: 320px;
+    min-height: 200px;
   }
 }

@@ -6,10 +6,10 @@
   color: white;
   grid-area: place__link;
   opacity: 1;
-  transition: opacity 3.3s;
-  -webkit-transition: opacity 3.3s;
-  -o-transition: opacity 3.3s;
-  -moz-transition: opacity 3.3s;
+  transition: opacity .5s;
+  -webkit-transition: opacity .5s;
+  -o-transition: opacity .5s;
+  -moz-transition: opacity .5s;
 }
 
 @media screen and (min-width: 768px) {
