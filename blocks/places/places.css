@@ -3,3 +3,21 @@
   margin-left: auto;
   margin-right: auto;
 }
+@media screen and (min-width: 768px) {
+  .places {
+    margin-top: 88px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .places {
+    margin-top: 92px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .places {
+    /*
+    margin-left: 148px;
+    margin-right: 148px;
+    */
+  }
+}

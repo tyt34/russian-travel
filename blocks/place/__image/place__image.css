@@ -4,8 +4,20 @@
   grid-area: place__image;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .place__image {
     margin-top: 48px;
   }
 }
+/*
+@media screen and (min-width: 1024px) {
+  .place__image {
+    margin-top: 48px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .place__image {
+    margin-top: 48px;
+  }
+}
+*/

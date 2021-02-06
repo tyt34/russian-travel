@@ -10,6 +10,17 @@
     margin: 0;
     font-size: 16px;
     line-height: 163%;
-    margin-top: 32px;
+    margin-top: 48px;
+    /*min-width: 352px;*/
+  }
+}
+@media screen and (min-width: 1024px) {
+  .place__paragraphs {
+    /*min-width: 456px;*/
+  }
+}
+@media screen and (min-width: 1280px) {
+  .place__paragraphs {
+    /*min-width: 484px;*/
   }
 }

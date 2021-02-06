@@ -3,4 +3,16 @@
   flex-direction: column;
   justify-content: flex-end;
   grid-area: place__web;
+  margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .place__web {
+    margin-top: 0px;
+    /*margin-top: 73px;*/
+  }
+}
+@media screen and (min-width: 768px) {
+  .place__web {
+    /*margin-top: 80px;*/
+  }
 }

@@ -1,7 +1,9 @@
 .header__column-links {
   display: flex;
-  align-items: flex-end;
-  margin-bottom: 3px;
+  /* align-items: flex-end;*/
+  align-items: center;
+  margin-top: 5px;
+  /*margin-bottom: 3px;*/
 }
 /*
 @media screen and (max-width: 767px) {
