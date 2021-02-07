@@ -22,6 +22,6 @@
   }
 }
 .footer__link:hover {
-  /*color: red;*/
+  color: red;
   opacity: 0.5;
 }

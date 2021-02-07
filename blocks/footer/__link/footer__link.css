@@ -8,7 +8,7 @@
   -moz-transition: opacity .5s;
 }
 .footer__link:hover {
-  /*color: red;*/
+  color: red;
   opacity: 0.5;
 }
 @media screen and (min-width: 768px) {

@@ -16,7 +16,7 @@
 .cover:hover .cover__overlay {
   opacity: 0.8;
   background: #2A2C2F;
-  /*color: red;*/
+  color: red;
 }
 @media screen and (min-width: 1280px) {
   .cover__overlay {
